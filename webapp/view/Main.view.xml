@@ -1,5 +1,6 @@
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:semantic="sap.m.semantic"
 	controllerName="myFirstApplication.MyFirstApplication.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml">
 
-	<Button text="Click me!"></Button>
+	<!-- Button with a text and a event -->
+	<Button text="Click me!" press="onPress"/>
 </mvc:View>
